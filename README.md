@@ -12,7 +12,7 @@ Mechanical oscillators naturally attenuate vibrations above their resonance freq
 
 ## Objectives
 
-The primary objectives of this project were to:
+The primary objectives of this project are to:
 
 * Develop analytical models of the six degrees of freedom of a single-stage pendulum suspension by deriving the equations of motion using Lagrangian formalism.
 * Implement the analytical model through state-space modeling to obtain the transfer functions, dynamic response, and resonance characteristics of the suspension.
