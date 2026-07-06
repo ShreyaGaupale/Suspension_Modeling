@@ -20,3 +20,14 @@ The primary objectives of this project are to:
 * Validate the analytical model through comparison with experimental measurements.
 * Investigate the thermal noise behaviour of the suspension using experimentally determined parameters.
 * Demonstrate the principles of vibration isolation employed in precision interferometric experiments such as gravitational-wave detectors.
+
+
+## Repository Structure
+
+## Methodology
+
+## Key Results
+
+## Tools and Libraries
+
+## Thesis
