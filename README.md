@@ -46,6 +46,26 @@ The analysis was then extended to the frequency domain using transfer functions 
 
 These concepts provide the theoretical foundation for the analytical modeling of the pendulum suspension presented in the subsequent sections.
   
+### 2. Analytical Modeling
+This section presents the analytical modeling of a single-stage, four-wire pendulum suspension system to investigate the dynamic behaviour of its six degrees of freedom. The equations of motion were derived using **Lagrangian formalism** and implemented through **state-space modeling** to characterize the response of the suspension.
+
+The suspension system was modeled for the following modes:
+
+* Vertical
+* Longitudinal & Pitch (Coupled)
+* Transverse & Roll (Coupled)
+* Yaw
+
+For each mode, the state-space representation was used to:
+
+* Generate the transfer functions of the suspension.
+* Obtain the corresponding Bode magnitude and phase plots.
+* Calculate the resonance frequencies from the eigenvalues of the system matrix.
+* Verify the analytically calculated resonance frequencies using the resonance peaks in the transfer function magnitude plots.
+
+The analytical model provides a theoretical description of the suspension dynamics and serves as the basis for comparison with the experimentally measured response presented in the following section.
+
+
 
 ## Methodology
 
