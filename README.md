@@ -65,9 +65,34 @@ For each mode, the state-space representation was used to:
 
 The analytical model provides a theoretical description of the suspension dynamics and serves as the basis for comparison with the experimentally measured response presented in the following section.
 
+### 3. Experimental Analysis
+This section presents the experimental characterization of the single-stage pendulum suspension to validate the analytical model. Experimental data acquired from the suspension system were analyzed to determine the dynamic characteristics of the longitudinal, pitch, and yaw modes.
 
+The following analyses were performed for the **longitudinal**, **pitch**, and **yaw** modes:
 
-## Methodology
+* Estimation of the **Amplitude Spectral Density (ASD)** using Welch's method.
+* Generation of the magnitude transfer function from the measured response.
+* Identification and isolation of the resonance peaks.
+* Lorentzian fitting of the isolated resonance peaks.
+* Extraction of the resonance frequencies and quality factors (Q).
+
+The experimentally determined pendulum parameters were then incorporated into the analytical state-space model to generate the theoretical response. A comparison between the analytical and experimental transfer functions was performed to validate the analytical model and evaluate its agreement with the measured system dynamics.
+
+### 4. Thermal Noise Analysis
+
+This section investigates the thermal noise behaviour of the single-stage pendulum suspension using the experimentally determined resonance frequencies and quality factors of the longitudinal, pitch, and yaw modes.
+
+The experimentally extracted parameters were incorporated into the thermal noise model to generate the **Amplitude Spectral Density (ASD)** of each suspension mode. For the rotational modes, the angular displacement spectra were converted to equivalent linear displacement to enable direct comparison with the longitudinal mode.
+
+The analysis included:
+
+* Generation of the thermal noise ASD for the longitudinal, pitch, and yaw modes.
+* Comparison of the thermal noise behaviour of the three suspension modes.
+* Investigation of the dependence of thermal noise on the resonance frequency ((f_0)).
+* Investigation of the dependence of thermal noise on the quality factor (Q).
+
+This analysis demonstrates how experimentally measured suspension parameters influence the fundamental thermal noise performance of vibration isolation systems.
+
 
 ## Key Results
 
