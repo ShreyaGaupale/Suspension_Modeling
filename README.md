@@ -93,16 +93,15 @@ The analysis included:
 
 This analysis demonstrates how experimentally measured suspension parameters influence the fundamental thermal noise performance of vibration isolation systems.
 
+##Key Results
 
-## Key Results
+## Tools & Libraries
 
-### Tools & Libraries
-
-#### Programming Language
+### Programming Language
 
 * Python
 
-#### Python Libraries
+### Python Libraries
 
 * **NumPy** – Numerical computations and matrix operations.
 * **SciPy** – Signal processing, optimization, and numerical analysis.
@@ -110,11 +109,11 @@ This analysis demonstrates how experimentally measured suspension parameters inf
 * **python-control** – State-space modeling, transfer function analysis, and Bode plots.
 * **Pandas** – Data import and manipulation of experimental datasets.
 
-#### Development Environment
+### Development Environment
 
 * Jupyter Notebook
 
-#### Analytical & Experimental Techniques
+### Analytical & Experimental Techniques
 
 * Lagrangian Formalism
 * State-Space Modeling
