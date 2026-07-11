@@ -25,72 +25,26 @@ The primary objectives of this project are to:
 ## Repository Structure
 
 ### 1. Damped Oscillator Analysis
-
-The damped harmonic oscillator forms the foundation of vibration isolation systems. This section investigates the behaviour of oscillators in both the time and frequency domains to understand how different damping mechanisms influence resonance and vibration isolation.
+The damped harmonic oscillator forms the foundation of vibration isolation systems. This section investigates the behaviour of oscillators in both the time and frequency domains to understand how different damping mechanisms influence resonance, dynamic response, and vibration isolation.
 
 #### Time-Domain Analysis
+The time-domain response of both undamped and damped harmonic oscillators was studied to understand the effect of damping on the system dynamics. The following cases were investigated:
 
-The following systems were studied:
+* Simple Harmonic Oscillator (No Damping)
+* Underdamped Oscillator
+* Critically Damped Oscillator
+* Overdamped Oscillator
 
-* **Simple Harmonic Oscillator (No Damping)**
-
-[
-\frac{d^2x}{dt^2}+\omega_0^2x=0
-]
-
-* **Damped Harmonic Oscillator**
-
-[
-\frac{d^2x}{dt^2}+2\zeta\omega_0\frac{dx}{dt}+\omega_0^2x=0
-]
-
-The response of the system was analysed for the three damping regimes:
-
-* Underdamped ((\zeta<1))
-* Critically damped ((\zeta=1))
-* Overdamped ((\zeta>1))
-
----
+The displacement response of each damping regime was analyzed and compared to illustrate the influence of damping on the motion of the oscillator.
 
 #### Frequency-Domain Analysis
+The analysis was then extended to the frequency domain using transfer functions to characterize the response of vibration isolators. Three damping models were investigated:
 
-Transfer functions were studied for three different vibration isolation models.
+* Undamped Oscillator
+* Velocity Damping
+* Internal Friction Damping
 
-##### 1. Undamped Oscillator
-
-[
-\left|\frac{x}{x_g}\right|
-==========================
-
-\frac{f_0^2}{\left|f_0^2-f^2\right|}
-]
-
-##### 2. Velocity Damping
-
-[
-\frac{x}{x_g}
-=============
-
-\frac{f_0^2}
-{f_0^2-f^2+i\left(\frac{fb}{2\pi m}\right)}
-]
-
-##### 3. Internal Friction Damping
-
-[
-\frac{x}{x_g}
-=============
-
-\frac{f_0^2(1+i\phi)}
-{f_0^2-f^2+i f_0^2\phi}
-]
-
-The corresponding **magnitude** and **phase** responses were analysed to investigate:
-
-* Resonance behaviour
-* Effect of different damping mechanisms on the frequency response
-* Vibration attenuation above the resonance frequency
-* Isolation performance of the three damping models
+These concepts provide the theoretical foundation for the analytical modeling of the pendulum suspension presented in the subsequent sections.
   
 
 ## Methodology
