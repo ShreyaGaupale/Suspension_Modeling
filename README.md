@@ -96,6 +96,35 @@ This analysis demonstrates how experimentally measured suspension parameters inf
 
 ## Key Results
 
-## Tools and Libraries
+### Tools & Libraries
+
+#### Programming Language
+
+* Python
+
+#### Python Libraries
+
+* **NumPy** – Numerical computations and matrix operations.
+* **SciPy** – Signal processing, optimization, and numerical analysis.
+* **Matplotlib** – Data visualization and scientific plotting.
+* **python-control** – State-space modeling, transfer function analysis, and Bode plots.
+* **Pandas** – Data import and manipulation of experimental datasets.
+
+#### Development Environment
+
+* Jupyter Notebook
+
+#### Analytical & Experimental Techniques
+
+* Lagrangian Formalism
+* State-Space Modeling
+* Transfer Function Analysis
+* Eigenvalue Analysis
+* Welch Method for Amplitude Spectral Density (ASD) Estimation
+* Lorentzian Curve Fitting
+* Resonance Frequency Extraction
+* Quality Factor (Q) Estimation
+* Thermal Noise Analysis
+
 
 ## Thesis
